@@ -7,7 +7,5 @@ Add a tab to your terminal, which I'll call tab two from now on.
 ![Here's how to add a tab](tab.png)
 Switch to your first tab, and type `curl -fsSL https://ollama.com/install.sh | sh`<br>
 Now, type `ollama serve` and press enter.<br>
-Switch to tab two, type `ollama run deepseek-r1`. This will get a minimal terminal setup, but if you want a UI, continue with the next steps.<br>
-Type `/bye` in deepseek, then `chmod +x setup.sh`, then `./setup.sh`<br>
-Go to the ports section, and look for the port 3000. Hover over the forwarded address field, and click the globe icon to open it.
-Click Get Started, type your name, email, and password, and then you're in.
+Switch to tab two, type `ollama run deepseek-r1`. You can interact with this AI by typing prompts, and you can exit with `/bye`.<br>
+To start it up again after closing the tab, go back to your codespace, which you can find [here](https://github.com/codespaces), and do all the same things starting from running ollama serve in the first tab.
